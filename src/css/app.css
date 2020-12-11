@@ -1,0 +1,858 @@
+body.nav-open {
+    overflow: auto!important;
+}
+
+a:focus, .nav-tabs>li>a {
+    outline: 0 none white!important;
+    outline-style: none!important;
+    webkit-border-radius: 0 0 0 0!important;
+    border-radius: 0 0 0 0!important;
+}
+
+#start, #single-report-saved, #email-not-verified, #account-not-verified, #account-verified, #email-verified, #forgot-password-sent, #forgot-password-not-sent, #reset-password, #reset-password-success, #reset-password-error, #report-verify-after-months, #report-not-verify-after-months {
+    margin-top: 20px;
+}
+#faq .collapse:not(.show) {
+    display: none!important;
+    height: 0;
+}
+#faq .collapse {
+    height: auto !important;
+}
+#faq .collapse.show {
+    visibility: visible !important;
+    height: auto !important;
+    padding-bottom: 13px;
+}
+
+#faq h4 {
+    cursor: pointer;
+    color: #253276;
+    font-weight: bold;
+}
+
+#forum-infos .collapse:not(.show) {
+    display: none!important;
+    height: 0;
+}
+#forum-infos .collapse {
+    height: auto !important;
+}
+#forum-infos .collapse.show {
+    visibility: visible !important;
+    height: auto !important;
+    padding-bottom: 13px;
+}
+
+.btn, .btn:focus {
+    border: 0 solid white!important;
+}
+
+.nav-tabs>li>a {
+    border: 0 solid transparent!important;
+}
+
+.nav-container {
+    height: 100% !important;
+    overflow-y: auto!important;
+}
+
+.tab-content {
+    height: 100%;
+    overflow: hidden!important;
+    margin-top: 0;
+}
+
+.content-header {
+    padding: 0 0 15px 0;
+}
+
+.footer-images {
+    margin-top: 15px;
+}
+
+#register-title, #profile-title {
+    text-align: center!important;
+}
+
+.submenu {
+    margin-left: 10px!important;
+}
+
+.nav-tabs {
+    border-bottom: 0!important;
+}
+
+.modal {
+    border-radius: 0!important;
+}
+
+.modal-title {
+    margin-top: 20px!important;
+}
+
+.modal-header h3 {
+    line-height: normal;
+}
+
+#single-report-saved-tab-button, #email-not-verified-tab-button, #register-tab-button, #account-not-verified-tab-button, #account-verified-tab-button, #email-verified-tab-button, #forgot-password-sent-tab-button, #forgot-password-not-sent-tab-button, #reset-password-tab-button, #reset-password-success-tab-button, #reset-password-error-tab-button, #contact-tab-button, #report-verify-after-months-tab-button, #report-not-verify-after-months-tab-button {
+    display: none!important;
+}
+
+.no-contact {
+    background-color: #ffbfbf;
+}
+
+.contact {
+    background-color: #c1ff6b;
+}
+
+#my-reports-list, #tku-reports-list, #admin-reports-list {
+    overflow: auto;
+}
+
+#my-reports-title, #tku-reports-title, #admin-reports-title {
+    text-align: center;
+}
+
+#tku-reports-table_filter, #admin-reports-table_filter {
+    margin-right: 15px!important;
+}
+
+.my-reports-edit>i, .my-reports-delete>i {
+    cursor: pointer;
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url("../img/sort_desc.png")!important;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: url("../img/sort_asc.png")!important;
+}
+
+table.dataTable thead .sorting {
+    background-image: url("../img/sort_both.png")!important;
+}
+
+
+.modal h3 {
+    color: #000000!important;
+}
+
+#register-form h3, #my-reports h3, #profile-form h3, #faq h3, #tku-reports h3, #admin-reports h3, #forum-technology-body h3, #forum-supply-body h3, #forum-technology .note-editable h3, #forum-supply .note-editable h3, #forum-infos-body h3 {
+    color: #000000!important;
+}
+
+h1.start-title {
+    margin-top:18px;
+}
+
+.list-partnerlogos .item img, .list-partnerlogos .logogalerie-item img {
+    max-height: 50px;
+}
+
+#forum-supply-body {
+    margin-top: 25px;
+}
+
+.modal-footer {
+    background-color: #FFFFFF!important;
+}
+
+#report-multiple-button, #report-single-button {
+    width: 195px!important;
+}
+
+#report-multiple-button.disabled, #report-multiple-button[disabled] {
+    pointer-events: none!important;
+}
+
+#report-technology-text, #report-technology-form {
+    display: none;
+}
+
+#report-further-info-form {
+    margin-top: 10px;
+}
+
+#report-further-info, #register-further-info, #profile-further-info, #contact-message {
+    resize: none;
+}
+
+.content-footer .like-url {
+    padding-right: 20px;
+}
+
+.logout-mobile-button a::before {
+    color: #ccc!important;
+    content: "⌊"!important;
+    font-size: 1.5em!important;
+    font-weight: normal!important;
+    margin: 0 3px 0 0!important;
+    position: relative!important;
+    top: -4px!important;
+    padding-left: 0.5em!important;
+}
+
+.logout-mobile-button {
+    padding-top: 0.7em!important;
+    padding-bottom: 0.7em!important;
+}
+
+#viewer-map {
+    width: 100%;
+    height: 500px;
+}
+
+#report-map {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.nav-collapse.collapse {
+    height: 0;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:active, .nav-tabs>li>a:focus {
+    border-color: #253276!important;
+}
+
+a.active.nav-link {
+    background-color: #253276!important;
+    color: #FFFFFF!important;
+}
+
+.ol-control button {
+    background-color: #253276!important;
+    opacity: 0.7!important;
+}
+
+#viewer-wofis-text-div, #viewer-statistics-div {
+    margin-top: 15px;
+}
+
+#viewer-statistics-title {
+    cursor: pointer;
+    color: #253276;
+    font-weight: bold;
+}
+
+#viewer-statistics-content {
+    display: none;
+}
+
+/* Counter */
+.viewer-counter {
+    text-align: center;
+    width: 180px;
+    bottom: 36px!important;
+    left: 0.5em!important;
+    background: rgba(255,255,255,0.7)!important;
+    border: 0px solid #eee!important;
+}
+
+/* Scroll message */
+.viewer-scroll-message, .report-scroll-message {
+    display: none;
+    text-align: center;
+    left: 50%;
+    width: 200px;
+    height: 50px;
+    margin-left: -100px;
+    padding-top: 13px!important;
+    top: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    background: rgba(255,255,255,0.7)!important;
+    border: 3px solid #000!important;
+}
+
+/* ScaleLine */
+.ol-scale-line-inner {
+    border: 1px solid #000!important;
+    color: #000!important;
+    font-weight: bold;
+    border-top: none!important;
+}
+.ol-scale-line {
+    background: rgba(255,255,255,0.7)!important;
+    border-radius: 0px!important;
+    bottom: 0.5em!important;
+    left: 0.5em!important;
+    padding: 2px;
+    position: absolute;
+}
+
+/* Legend*/
+.viewer-legend {
+    width: 120px;
+    bottom: 1.9em!important;
+    right: 0.5em!important;
+    background: rgba(255,255,255,0.7)!important;
+    border: 0px solid #eee!important;
+    padding: 5px!important;
+}
+.viewer-legend div {
+    margin-top: 2px;
+}
+.legend-colors {
+    height: 15px;
+    width: 20px;
+    display: block;
+    float: left;
+    margin-left: 3px!important;
+    margin-right: 10px;
+    border: 1px solid #5D5D5D;
+    /*border: 1px solid rgba(0, 0, 0, 0.6);*/
+}
+/* OL Zoom */
+.ol-control button {
+    margin: 1px;
+    padding: 0;
+    color: #000!important;
+    line-height: .4em;
+    background-color: rgba(255,255,255,0.7)!important;
+}
+
+/** Bedarfsmeldung (Report) **/
+#report-first-row label {
+    margin-bottom: 0!important;
+    font-size: 0.9em!important;
+}
+
+#report-tools, #report-tools2, #login-form, #forgot-password-form, #register-form, #contact-form {
+    padding-right: 5px;
+}
+
+#report-tools label, #report-tools2 label {
+    font-weight: normal;
+}
+
+#report-edit-title {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.form-category {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.selectpickerdiv .btn,  .selectpickerdiv .btn:hover, .selectpickerdiv .btn:focus, .selectpickerdiv .btn:active  {
+    color: #000000!important;
+    background-color: #FFFFFF!important;
+    border: 1px solid #ccc!important;
+}
+
+.selectpickerdiv .dropdown>.dropdown-menu {
+    transform: translate3d(0px, 32px, 0px)!important;
+}
+
+.selectpickerdiv .bs-searchbox {
+    margin-right: 10px;
+}
+
+.selectpickerdiv .filter-option-inner-inner {
+    color: grey;
+}
+
+.selectpickerdiv label {
+    margin-top: 10px;
+}
+#report-save-single, #report-save-multiple, #report-next {
+    margin-top: 15px;
+    float: right;
+}
+
+.report-check-label, .register-check-label {
+    display: inline!important;
+}
+
+#start-tab-button:hover, #report-tab-button:hover, #viewer-tab-button:hover, #forum-tab-button:hover, #faq-tab-buttom:hover, #login-tab-button:hover, #account-tab-button:hover {
+    background-color: #253276;
+}
+
+.label-like-url {
+    color: #003684;
+    cursor: pointer;
+}
+
+.label-like-url:hover {
+    text-decoration: underline;
+}
+
+#report-data-protection {
+    margin-top: 0;
+}
+
+#report-field input {
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.invalid {
+    border: 1px solid red!important;
+}
+.invalid-show-in-text {
+    color: red!important;
+}
+.invalid-input {
+    border-color: red!important;
+}
+
+/* Popup */
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    padding: 5px;
+    /*border-radius: 10px;*/
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 145px;
+    z-index: 1000;
+}
+.wofis-popup {
+    min-width: 195px;
+}
+.ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+}
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+}
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+}
+.ol-popup-closer:after {
+    content: "✖";
+}
+/******/
+#report-street {
+    padding: 6px 4px 6px 10px;
+}
+.xdsoft_autocomplete {
+    position: absolute!important;
+}
+.xdsoft_autocomplete_dropdown {
+    position: relative!important;
+    margin-top: -45px!important;
+}
+#report-street-div .xdsoft_autocomplete {
+    padding-top: 0!important;
+}
+
+.smaller-fonts {
+    font-size: 0.9em!important;
+}
+
+.smaller-bottom-margin {
+    margin-bottom: 0!important;
+}
+
+.footer-logo-text {
+    font-size: 10px;
+}
+.footer-logo-table {
+    font-size: 10px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-logo-table th {
+    margin: 0;
+    padding: 0;
+    border: 0px solid white;
+}
+
+#forum-navbar {
+    margin-bottom: 10px;
+}
+
+#forum-navbar h3 {
+    display: inline;
+    margin-right: 30px;
+}
+
+#forum h3 {
+    color: #003684;
+}
+
+#forum-content h3 {
+    color: #003684;
+}
+
+.forum-collapse {
+    cursor: pointer;
+}
+
+#forum .collapse:not(.show) {
+    display: none!important;
+}
+
+#forum-content .collapse:not(.show) {
+    display: none!important;
+}
+
+#forum .collapse {
+    height: auto!important;
+}
+
+#forum-content .collapse {
+    height: auto!important;
+}
+
+.note-editor {
+    margin-left: 20px;
+}
+
+#forum table, #forum td {
+    border-top: 1px solid black;
+}
+
+#provider-body {
+    overflow-x: auto;
+}
+
+#forum-add-provider {
+    border: 1px solid #003683;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #253276;
+    color: white;
+    cursor: pointer;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 5px;
+}
+
+.single-provider {
+    margin-top: 15px;
+}
+
+#forum-edit-template-stop-preview {
+    display: none;
+}
+
+#forum-technology-preview, #forum-technology-save, #forum-technology-cancel, #forum-technology-stop-preview {
+    display: none;
+}
+
+#forum-supply-preview, #forum-supply-save, #forum-supply-cancel, #forum-supply-stop-preview {
+    display: none;
+}
+
+#forum-infos-preview, #forum-infos-save, #forum-infos-cancel, #forum-infos-stop-preview {
+    display: none;
+}
+
+#about-preview, #about-save, #about-cancel, #about-stop-preview {
+    display: none;
+}
+
+#faq-preview, #faq-save, #faq-cancel, #faq-stop-preview, #glossar-preview, #glossar-save, #glossar-cancel, #glossar-stop-preview {
+    display: none;
+}
+
+#datenschutz-preview, #datenschutz-save, #datenschutz-cancel, #datenschutz-stop-preview {
+    display: none;
+}
+
+#startpage-preview, #startpage-save, #startpage-cancel, #startpage-stop-preview {
+    display: none;
+}
+
+#startpage-bottom-preview, #startpage-bottom-save, #startpage-bottom-cancel, #startpage-bottom-stop-preview {
+    display: none;
+}
+
+#forum-startpage-preview, #forum-startpage-save, #forum-startpage-cancel, #forum-startpage-stop-preview {
+    display: none;
+}
+
+#viewer-message-area-preview, #viewer-message-area-save, #viewer-message-area-cancel, #viewer-message-area-stop-preview {
+    display: none;
+}
+
+#bedarfsmeldungen-text-preview, #bedarfsmeldungen-text-save, #bedarfsmeldungen-text-cancel, #bedarfsmeldungen-text-stop-preview {
+    display: none;
+}
+
+.single-provider-name {
+    width: 300px!important;
+    webkit-border-radius: 0!important;
+    border-radius: 0!important;
+}
+
+.single-provider-div-name {
+    margin-left: 20px;
+    display: none;
+}
+
+.start-text-row {
+    margin-top: 15px;
+}
+
+.start-text-footer {
+    margin-top: 40px;
+}
+
+.start-td-icon {
+    width: 50px;
+}
+
+#start td {
+    border-top: 0 solid white;
+}
+
+.contact-messages {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Tooltip */
+#tooltip-summetry {
+    display: none;
+    position: absolute;
+    padding: 5px;
+    z-index: 100000;
+    margin-left: -72px;
+    margin-top: -45px;
+    border: 1px solid #253276;
+    border-radius: 6px;
+    background-color: #253276;
+    color: white;
+}
+
+.dt-buttons {
+    display: inline;
+}
+
+fieldset label {
+    font-weight: bold;
+}
+
+.breadcrumb-homehaus {
+    content: url("../img/homehaus00.png");
+    display: inline-block;
+    float: left;
+    text-indent: 0;
+    width: 16px;
+    vertical-align: sub!important;
+}
+
+.breadcrumb li:last-child a {
+    font-weight: normal;
+}
+
+.breadcrumb {
+    margin-top: 11px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb li {
+    padding-left: 7px;
+    margin-left: 0;
+}
+
+#add-news {
+    border: 1px solid #003683;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #253276;
+    color: white;
+    cursor: pointer;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 5px;
+}
+
+.startNewsDiv {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+#startPage-style {
+    background : linear-gradient(to right, #00a6de, #002c60);
+
+}
+
+.startNewsContent {
+    color: #fff!important;
+    font-family: Arial, sans-serif;
+
+}
+
+.startNewsContent > h2 {
+    color: #fff!important;
+
+}
+
+.newsButton {
+    background-color : #708090 !important;
+}
+
+.startNewsTitle {
+    color : #FFF!important;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.154em;
+    line-height:1.25em;
+    margin-top: .5em;
+    margin-bottom: .4em;
+
+}
+
+.newsContent {
+    margin: 15px;
+
+}
+
+.single-news-title {
+    width: 300px!important;
+    webkit-border-radius: 0!important;
+    border-radius: 0!important;
+}
+
+.single-news {
+    margin-top: 15px;
+}
+
+.forum-news-image, .forum-news-content {
+    min-height : 200px;
+}
+
+.forum-startpage-links {
+    color: #003684;
+    font-weight: bold;
+}
+
+/* Layerswitcher */
+.layer-switcher {
+    top: 0.5em;
+    right: 0.5em;
+    background: rgba(255,255,255,0.7)!important;
+}
+
+.layer-switcher button {
+    display: none!important;
+}
+
+.layer-switcher ul{
+    list-style-type: none;
+    margin-left: 2px;
+    padding-left: 3px;
+}
+
+.layer-switcher label {
+    display: inline;
+    margin-left: 5px;
+}
+
+.layer-switcher input[type="radio"] {
+    margin-top: 0;
+}
+
+#viewer-wofis-text-div table {
+    border-collapse: collapse;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#viewer-wofis-text-we {
+    text-align: right;
+}
+
+#viewer-wofis-text-div table, #viewer-wofis-text-div th, #viewer-wofis-text-div td {
+    border: 1px solid black;
+}
+
+/*  ToDo: ISABELLE */
+#videoDisplayElement {
+
+    width:100%;
+
+}
+
+
+#div-video-upload {
+
+    height: 100px;
+
+}
+
+#ajax-loader {
+
+    position: fixed;
+    height: 27px;
+    width: 160px;
+    display: none;
+    top: 75px;
+    left: 10px;
+    bottom: 0;
+    z-index: 10000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+
+  }
+
+  .targeted-link-accessibility {
+
+    text-decoration: underline!important;
+
+}
+
+.targeted-image-accessibility {
+
+    border: 1px solid black;
+
+}
+
+#logo-text-accessibility {
+
+    color: white;
+
+}
+
+.button-image-video-activated {
+
+    font-weight : bold;
+
+}
+
+video {
+
+    width: 100%;
+    height: auto;
+
+}

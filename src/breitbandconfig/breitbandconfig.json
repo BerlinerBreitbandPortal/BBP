@@ -1,0 +1,94 @@
+{
+  "speed": {
+    "16M": "bis 16 MBit/s",
+    "30M": "bis 30 MBit/s",
+    "50M": "bis 50 MBit/s",
+    "100M": "bis 100 MBit/s",
+    "200M": "bis 200 MBit/s",
+    "500M": "bis 500 MBit/s",
+    "1G": "bis 1 GBit/s",
+    "1G+": "mehr als 1 GBit/s"
+  },
+  "speed_selection" : {
+
+    "-30": ["16M","30M","50M","100M"],
+    "30-50": ["16M","30M","50M","100M", "200M", "500M", "1G"],
+    "50-100": ["16M","30M","50M","100M", "200M", "500M", "1G", "1G+"],
+    "100-250": ["16M","30M","50M","100M", "200M", "500M", "1G", "1G+"],
+    "250-500": ["16M","30M","50M","100M", "200M", "500M", "1G", "1G+"],
+    "500-800": ["16M","30M","50M","100M", "200M", "500M", "1G", "1G+"],
+    "Marktueblicher_Preis": ["16M","30M","50M","100M", "200M", "500M", "1G", "1G+"]
+ 
+  },
+  "price": {
+    "-30": "unter 30 EUR",
+    "30-50": "30 - 50 EUR",
+    "50-100": "50 - 100 EUR",
+    "100-250": "100 - 250 EUR",
+    "250-500": "250 - 500 EUR",
+    "500-800": "500 - 800 EUR",
+    "Marktueblicher_Preis": "Marktüblicher Preis"
+  },
+  "price_selection" : {
+
+    "16M":["-30", "30-50","50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"],
+    "30M":["-30", "30-50","50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"],
+    "50M":["-30", "30-50","50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"],
+    "100M":["-30", "30-50","50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"],
+    "200M":["30-50","50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"],
+    "500M":["30-50","50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"],
+    "1G":["30-50","50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"],
+    "1G+":["50-100", "100-250", "250-500", "500-800", "Marktueblicher_Preis"]
+
+  },
+  "use": {
+    "p": "privat",
+    "g": "geschäftlich",
+    "p+g": "privat und geschäftlich"
+  },
+  "symmetry": {
+    "symmetrisch": "symmetrisch",
+    "asymmetrisch": "asymmetrisch"
+  },
+  "technology_leitungsgebunden": {
+    "glasfaser": "Glasfaser",
+    "koaxial": "Koaxial",
+    "supervectoring": "(Super-)Vectoring"
+  },
+  "technology_funkgestuetzt": {
+    "5g": "5G",
+    "richtfunk": "Richtfunk"
+  },
+  "zugangstechnologie": {
+    "leitungsgebunden": "Leitungsgebunden",
+    "funkgestuetzt": "Funkgestützt"
+  },
+  "field": {
+    "streaming": "Streaming/Conferencing Multimedia (Sprache/Video)",
+    "point": "'Punkt-zu-Punkt' oder 'Punkt-zu Mehrpunkt' Verbindungstyp",
+    "collaboration": "interaktive Zusammenarbeit von Teams (Unified Collaboration)"
+  },
+  "sector": {
+    "1": "Land- und Forstwirtschaft, Fischerei",
+    "2": "Bergbau und verarbeitendes Gewerbe",
+    "3": "Energieversorgung",
+    "4": "Baugewerbe",
+    "5": "Handel",
+    "6": "Logistik",
+    "7": "Gastgewerbe",
+    "8": "Information und Kommunikation",
+    "9": "Finanz- und Versicherungsdienstleistungen",
+    "10": "Grundstücks- und Wohnungswesen",
+    "11": "Freiberufliche, wissenschaftliche und technische Dienstleistungen",
+    "12": "Öffentliche Verwaltung, Verteidigung; Sozialversicherung",
+    "13": "Erziehung und Unterricht",
+    "14": "Gesundheits- und Sozialwesen",
+    "15": "Kunst, Unterhaltung und Erholung",
+    "16": "Sonstige"
+  },
+  "salutation": ["Herr", "Frau", "Divers"],
+  "tku_action": {
+    "planned": "Maßnahmen werden geplant",
+    "implemented": "Maßnahmen umgesetzt"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": {
+    "include": ["src/js"],
+    "exclude": ["src/js/autocomplete.js", "src/js/summernote-lite.js", "src/js/summernote-de_DE.js"]
+  },
+  "opts": {
+    "destination": "documentation",
+    "recurse": true,
+    "encoding": "utf8",
+    "readme": "resources/jsdoc_readme/README.md",
+    "template": "./node_modules/clean-jsdoc-theme",
+    "theme_opts": {
+      "menu": [
+        {
+          "title": "Berliner Breitband Portal<br>Webseite",
+          "link": "https://breitband.berlin.de",
+          "target": "_blank"
+        }
+      ],
+      "create_style": "nav{background: #253276}h1.page-title::after{background: #C7D9FF}article h1::after{background: #C7D9FF}",
+      "footer": "<a href='https://breitband.berlin.de' target='_blank'>Berliner Breitband Portal</a>: JavaScript Quellcode Dokumentation. Generiert von JSDoc."
+    }
+  }
+}
